@@ -1,0 +1,68 @@
+.amarillo{
+    background-color: yellow;
+    
+    }
+    .rojo {
+    
+    background-color: red;
+    margin: 0;
+    
+    }
+    
+    label{
+        
+    
+    }
+    
+    body{
+        background-color: violet;
+            }
+    
+    body{
+    
+        background-color: 0 4px 8px 0 rgba(0, 0, 0, 0.5); 
+        border: 2cap;
+        display: block;
+        border: 5px;
+        background-color: aliceblue;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    }
+    
+    
+    .digales{
+        background-color: darkcyan;
+        margin: 0;
+        font-weight: bold;
+        
+    }
+    
+    p{
+        background-color: rgb(220, 220, 220);
+        border-start-end-radius: 5px;
+        display: inline-block;
+        border-collapse: collapse;
+        width: 15%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+        text-align: center;
+    }
+    
+    .perro{
+        background-color: rgb(220, 220, 220);
+        border-start-end-radius: 5px;
+        display: inline-block;
+        border-collapse: collapse;
+        width: 15%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+        text-align: center;
+    }
+    
+    .file {
+        background-color: rgb(220, 220, 220);
+        border-start-end-radius: 5px;
+        display: inline-block;
+        border-collapse: collapse;
+        width: 25%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); 
+        text-align: center;
+    
+    }
