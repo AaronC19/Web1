@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LABORATORIO2</title>
+</head>
+<body>
+    <center>
+        <h1>Perfil Profesional</h1>
+        <p>Ingrese los datos que se le solicitan</p>
+
+        <form id="perfil-form">
+            <h2>Datos Personales</h2>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre completo">
+            <br>
+            <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="fecha-nacimiento" id="fecha-nacimiento">
+            <br>
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo" id="correo" placeholder="Escriba su correo electrónico">
+            <br>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" name="telefono" id="telefono" placeholder="Escriba su número de teléfono">
+            <br>
+            <label for="foto">Fotografía:</label>
+            <input type="file" name="foto" id="foto">
+            <br>
+
+            <h2>Datos Académicos</h2>
+            <label for="año">Año:</label>
+            <input type="number" name="año" id="año" min="1900" max="2099">
+            <br>
+            <label for="institucion">Institución:</label>
+            <input type="text" name="institucion" id="institucion" placeholder="Escriba el nombre de la institución">
+            <br>
+            <label for="grado">Grado académico:</label>
+            <input type="text" name="grado" id="grado" placeholder="Escriba el grado académico obtenido">
+            <br>
+
+            <h2>Datos de Capacitación</h2>
+            <label for="cap-año">Año:</label>
+            <input type="number" name="cap-año" id="cap-año" min="1900" max="2099">
+            <br>
+            <label for="cap-institucion">Institución:</label>
+            <input type="text" name="cap-institucion" id="cap-institucion"
+                placeholder="Escriba el nombre de la institución">
+            <br>
+            <label for="cap-horas">Cantidad de horas:</label>
+            <input type="number" name="cap-horas" id="cap-horas" min="1">
+            <br>
+            <label for="cap-nombre">Nombre de la capacitación:</label>
+            <input type="text" name="cap-nombre" id="cap-nombre" placeholder="Escriba el nombre de la capacitación">
+            <br>
+
+            <h2>Idiomas</h2>
+            <label for="idioma">Idioma:</label>
+            <input type="text" name="idioma" id="idioma" placeholder="Escriba el idioma que domina">
+            <br>
+            <label for="porcentaje">Porcentaje de dominio:</label>
+            <input type="number" name="porcentaje" id="porcentaje" min="0" max="100">
+            <br>
+            <label for="certificacion">Certificación:</label>
+            <input type="checkbox" name="certificacion" id="certificacion">
+            <br>
+
+            <h2>Referencias</h2>
+            <label for="ref-nombre">Nombre completo:</label>
+            <input type="text" name="ref-nombre" id="ref-nombre"
+                placeholder="Escriba el nombre completo de la referencia">
+            <br>
+            <label for="ref-empresa">Empresa o institución:</label>
+            <input type="text" name="ref-empresa" id="ref-empresa"
+                placeholder="Escriba el nombre de la empresa o institución">
+            <br>
+            <label for="ref-telefono">Teléfono:</label>
+            <input type="tel" name="ref-telefono" id="ref-telefono"
+                placeholder="Escriba el número de teléfono de la referencia">
+            <br>
+            <label for="ref-correo">Correo electrónico:</label>
+            <input type="email" name="ref-correo" id="ref-correo"
+                placeholder="Escriba el correo electrónico de la referencia">
+            <br>
+
+            <h2>Redes Sociales</h2>
+            <a href="https://www.instagram.com/contrras_17/"><img
+                    src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo.png" width="50px" height="50px"
+                    alt=""></a>
+            <a href=""><img src="https://imagepng.org/wp-content/uploads/2018/08/twitter-icone.png" width="50px"
+                    height="50px" alt=""></a>
+            <a href="https://www.youtube.com/channel/UCUVq317H7egPd139yAL0Syw"><img
+                    src="https://clipart.info/images/ccovers/1590430652red-youtube-logo-png-xl.png" width="50px"
+                    height="50px" alt=""></a>
+
+            <br><br>
+
+            <input type="submit" value="Guardar">
+            <input type="reset" value="Limpiar">
+        </form>
+
+    </center>
+</body>
+
+</html>
