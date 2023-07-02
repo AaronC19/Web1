@@ -1,0 +1,74 @@
+.div1{
+    background-color: darkgreen;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+    text-align: center;
+    border-radius: 50%;
+    width: 14%;
+    background-image: url(/th.jpeg) ;
+    background-size: cover;
+    
+    
+    }
+    
+    .div2{
+        background-color: palevioletred;
+        width: 200px;
+        height: 200px;
+        box-sizing: border-box;
+        box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+        margin-top: 20px;
+        text-align: center;
+        width: 85%;
+        background-image: url(/R.jpeg) ;
+    background-size: cover;
+    
+    }
+    
+    .div3{
+        background-color: lightblue;
+        width: 200px;
+        height: 200px;
+        box-sizing: border-box;
+        box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+        background-image: url(/OIP.jpeg) ;
+    
+    }
+    
+    .div4{
+        background-color: blanchedalmond;
+        width: 200px;
+        height: 200px;
+        box-sizing: border-box;
+        box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+        background-image: url(/wp11484910.jpg) ;
+        background-size: cover;
+    
+    }
+    
+    .button {
+        display: inline-block;
+        padding: 1vw 2vw;
+        font-size: 1vw;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #353535;
+        border: none;
+        border-radius: 0.5vw;
+        box-shadow: 0 0.5vw #999;
+        margin: 2vw 0vw;
+      }

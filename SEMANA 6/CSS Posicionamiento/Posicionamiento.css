@@ -1,0 +1,41 @@
+.div1,.div2,.div3,.div4{
+    width: 200px ;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.div1{
+    background-color: gold;
+    box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+    text-align: center;
+    z-index: 2;
+  
+    
+    }
+    
+    .div2{
+        background-color: royalblue;
+        box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+        background-color: springgreen;
+        position: relative;
+        left: 650px;
+        z-index: 1;
+        
+    }
+    
+    .div3{
+        background-color: aquamarine;
+        box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        
+        
+    }
+
+    .div4{
+        background-color: royalblue;
+        box-shadow: 0 0.4vw 0.4vw 0 #333, 0 0.4vw 0.4vw 0.1vw #333;
+        position: fixed;
+        top: 300px;
+    }
