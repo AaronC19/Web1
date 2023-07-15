@@ -1,0 +1,46 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+nav.menu div.options ul li a {
+    color: orange;
+}
+
+div#page > div {
+    color: red;
+}
+
+div.post div + div {
+    color: forestgreen;
+}
+
+div.post span + span{
+color: blueviolet;
+
+}
+
+div.post strong ~ strong{
+    color: blue;
+}
+
+div#menu * {
+background-color: yellow; 
+}
+
+div#menu h1:hover{
+    background-color: red;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+.nombre:focus{
+    background-color: hotpink;
+}
+
+.imagen:hover{
+width: auto;
+height: 300px;
+border-radius: 50%;
+box-shadow: 0px 0px 6px 6px crimson;
+}
